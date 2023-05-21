@@ -1,6 +1,3 @@
-console.log("Conectado");
-
-
 const octalToBinaryEquivalence = {
     000: '0',
     001: '1',
