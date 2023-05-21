@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: greenyellow;
+}
+
+header{
+    margin: 10px;
+}
+
+h1,h2{
+    margin: 10px;
+}
+
+
+section {
+    margin: 0px auto;
+    padding: 0;
+    border: 1px solid black;
+    display: block;
+}
+
+input {
+    margin: 10px;
+}
+
+button{
+    margin: 10px;
+}
+
+table, th{
+    border: 1px solid greenyellow;
+}
+
+.user{
+    float: left;
+}
+
+.group{
+    float: left;
+}
+
