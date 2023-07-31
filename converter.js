@@ -10,12 +10,13 @@ const octalToBinaryEquivalence = {
 }
 
 const printResult = (message) => {
+    cleanResult();  
     const resultSection = document.getElementById("result");
     const result = document.createElement("h3");
     result.id = "printMessage";
     result.innerText = "chmod " + message;
-    result.style.backgroundColor = "greenyellow";
-    result.style.color = "black";
+    result.style.backgroundColor = "#171720";
+    result.style.color = "white";
     result.style.margin = 10;
     return resultSection.appendChild(result)
 }

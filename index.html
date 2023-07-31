@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,50 +8,59 @@
     <link rel="stylesheet" href="style.css">
     <title>octal-converter</title>
 </head>
-<header>
-    <h1>Octal converter</h1>
-</header>
+
 <body>
-    <section>
-        <table>
-            <ti>
-                <th>User</th>
-                <th>Group</th>
-                <th>World</th>
-            </tr>
-            <tr>
-                <th>rw-</th>
-                <th>r--</th>
-                <th>r--</th>
-            </tr>
-            <tr>
-                <th>111</th>
-                <th>100</th>
-                <th>100</th>
-            </tr>
-        </table>
-    </section>
-    <section>
-        <div class="user">
-            <input id="user_input" type="text">
-        </div>
-        <div class="group">
-            <input id="group_input" type="text">
-        </div>
-        <div class="world">
-            <input id="world_input" type="text">
-        </div>
-    </section>
-    <section>
-        <div id="result" class="result">
-        </div>
+    <section class="main-ctn">
+        <h1>Octal converter</h1>
+        <section class="octal-ctn">
+            <div id="result" class="result">
+            </div>
+            <section>
+                <table>
+                    <ti>
+                        <th>USER</th>
+                        <th>GROUP</th>
+                        <th>WORLD</th>
+                        </tr>
+                        <tr>
+                            <th>rw-</th>
+                            <th>r--</th>
+                            <th>r--</th>
+                        </tr>
+                        <tr>
+                            <th>110</th>
+                            <th>100</th>
+                            <th>100</th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="user">
+                                    <input id="user_input" type="text">
+                                </div>
+                            </th>
+                            <th>
+                                <div class="group">
+                                    <input id="group_input" type="text">
+                                </div>
+                            </th>
+                            <th>
+
+                                <div class="world">
+                                    <input id="world_input" type="text">
+                                </div>
+                            </th>
+                        </tr>
+                </table>
+            </section>
+            <section class="btn-action">
+                <button id="cal" onclick="convertToDecimal()">calculate</button>
+                <button id="del" onclick="cleanResult()">clean</button>
+            </section>
+        </section>
     </section>
 </body>
 <footer>
-    <section>
-        <button id="cal" onclick="convertToDecimal()">Calculate</button>
-        <button id="del" onclick="cleanResult()">Clean</button>
-    </section>
+
 </footer>
 <script src="converter.js"></script>
 
