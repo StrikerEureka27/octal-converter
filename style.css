@@ -31,17 +31,18 @@ button {
     border: none;
     color: white;
     font-weight: bold;
-    background-color: #171720;
+    background-color: #e9ca85;
     border-radius: 5px;
 }
 
 button:hover{
-    background-color: #2e2e3f;
+    background-color: #c0a66d;
 }
 
 
 .main-ctn {
     width: 100%;
+    padding-top: 10rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -69,7 +70,7 @@ button:hover{
 .result{
     margin: 0.5rem;
     height: 3rem;
-    width: 100%;
+    width: 10rem;
     background-color: #171720;
     align-items: center;
     justify-content: center;
